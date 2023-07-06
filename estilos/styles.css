@@ -29,3 +29,31 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.hero{
+    margin: 0 auto;
+    padding: 7em;
+}
+
+.hero__texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.hero__title{
+    color: var(--Grayish-Blue);
+    font-weight: 200;
+}
+
+.hero__subtitle{
+    color: var(--Very-Dark-Blue);
+}
+
+.hero__paragraph{
+        text-align: center;
+        width: 560px;
+        margin-top: 0.5em;
+        color: var(--Grayish-Blue);
+}
