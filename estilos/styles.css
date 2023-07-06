@@ -57,3 +57,13 @@ body{
         margin-top: 0.5em;
         color: var(--Grayish-Blue);
 }
+
+.supervisor{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 3rem;
+    box-shadow: 2px 1px 67px -13px rgba(0,0,0,0.77);
+    -webkit-box-shadow: 2px 1px 67px -13px rgba(0,0,0,0.77);
+    -moz-box-shadow: 2px 1px 67px -13px rgba(0,0,0,0.77);
+}
